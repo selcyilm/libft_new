@@ -12,6 +12,9 @@
 
 SRCS		=	./stdlib/ft_atoi.c\
 			./stdlib/ft_calloc.c\
+			./stdlib/ft_atol.c\
+			./stdlib/ft_atoll.c\
+			./stdlib/ft_atof.c\
 			./ctype/ft_isalnum.c\
 			./ctype/ft_isalpha.c\
 			./ctype/ft_isascii.c\
@@ -19,6 +22,7 @@ SRCS		=	./stdlib/ft_atoi.c\
 			./ctype/ft_isprint.c\
 			./ctype/ft_tolower.c\
 			./ctype/ft_toupper.c\
+			./ctype/ft_isspace.c\
 			./mem/ft_bzero.c\
 			./mem/ft_memchr.c\
 			./mem/ft_memcmp.c\
